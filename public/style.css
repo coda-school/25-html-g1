@@ -1,26 +1,4 @@
-.staffimage {
-    float: left;
-    max-width: 200px;
-    width: 33%;
-    padding: 15px;
-}
-
-.ligne::after {
-    content: "";
-    clear: both;
-    display: table
-}
-
-.bloc {
-    background-color: #ddf842;
-    text-align: center;
-    margin: 2vw 5vh 2vw 5vh;
-}
-
-.bloctexte {
-    margin: 0 10vw 0 10vw;
-    padding: 5px;
-}
+/*Toutes les pages*/
 
 * {
     margin: 0;
@@ -39,6 +17,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/*Page du BDE*/
 
 .mainBDE {
     display: flex;
@@ -70,4 +50,30 @@ body {
     flex-direction: column;
     border: 3px solid;
     background-color: gainsboro;
+}
+
+/*Page pedago*/
+
+.staffimage {
+    float: left;
+    max-width: 200px;
+    width: 33%;
+    padding: 15px;
+}
+
+.ligne::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.bloc {
+    background-color: #ddf842;
+    text-align: center;
+    margin: 2vw 5vh 2vw 5vh;
+}
+
+.bloctexte {
+    margin: 0 10vw 0 10vw;
+    padding: 5px;
 }
