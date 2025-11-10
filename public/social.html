@@ -8,7 +8,23 @@
 
 <body>
 <header>
-    <!--Header commun à completer-->
+    <div class="logo">
+        <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+    </div>
+    <!--<h1>Wiki coda</h1>-->
+    <nav aria-label="Menu principal">
+        <input type="checkbox" id="burger-toggle" class="hidden-checkbox"/>
+        <label for="burger-toggle" class="burger-icon">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <ul class="liste-menu">
+            <li><a href="bde.html">Bureau des étudiants</a></li>
+            <li><a href="social.html">Vie sociale du campus</a></li>
+            <li><a href="pedago.html">Pédagogie de l'école</a></li>
+        </ul>
+    </nav>
 </header>
 
 <!--Retour à la page d'accueil avec une balise <a> -->
@@ -67,7 +83,7 @@
     <article id="vie-au-campus">
             <p>Sur le campus d'une part, les étudiant(e)s ont entre eux un fort esprit de cohésion.</p> 
             <p>Beaucoup de travaux se font en groupe, voire même à l'oral, permettant ainsi de forger un esprit d'équipe solide.</p>
-            <p>De plus des activités en dehors des cours sont parfois organisées par le BDE comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
+            <p>De plus des activités en dehors des cours sont parfois organisées par le <a href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
     </article>
 
     <h3>Séminaire annoncé de Mars</h3>
@@ -78,7 +94,18 @@
 </main>
 
 <aside>
-    <!--Aside commun à completer-->
+    <h2>Nous contacter</h2>
+    <form>
+        <label for="prenom">Prénom</label>
+        <input id="prenom" type="text" name="prenom">
+        <label for="nom">Nom</label>
+        <input id="nom" type="text" name="nom">
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email">
+        <label for="message">Message</label>
+        <input id="message" type="text" name="message">
+        <input type="submit" value="Envoyer">
+    </form>
 </aside>
 
 <footer>
