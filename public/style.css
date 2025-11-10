@@ -2,3 +2,48 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    
+}
+
+.dimensions {
+    max-width: 720px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBDE {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentationBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
+
+.listeBDE {
+    margin-left: 20px;
+}
+
+.eventBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
+
+.partenariatBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
