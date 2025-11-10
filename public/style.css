@@ -5,10 +5,11 @@
     padding: 15px;
 }
 
-.ligne::after {
-    content: "";
-    clear: both;
-    display: table
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px
 }
 
 .bloc {
