@@ -1,3 +1,16 @@
+.staffimage {
+    float: left;
+    max-width: 200px;
+    width: 33%;
+    padding: 15px;
+}
+
+.ligne::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
 * {
     margin: 0;
     padding: 0;
