@@ -3,13 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CODA Wiki - Pédagogie</title>
+    <title>Wikicoda - Pédagogie</title>
     <meta name="description" content="Page présentant la pédagogie de CODA.">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Carte de Visite</title>
 </head>
 <body>
 <main>
-    test
+    <header>
+        <div class="logo">
+            <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        </div>
+        <!--<h1>Wiki coda</h1>-->
+        <nav aria-label="Menu principal">
+            <input type="checkbox" id="burger-toggle" class="hidden-checkbox"/>
+            <label for="burger-toggle" class="burger-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+            <ul class="liste-menu">
+                <li><a href="bde.html">Bureau des étudiants</a></li>
+                <li><a href="social.html">Vie sociale du campus</a></li>
+                <li><a href="pedago.html">Pédagogie de l'école</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Pédagogie</h2>
+    <section>
+        <h3>L'Équipe</h3>
+        L'équipe de CODA Dijon est composée de plusieurs personnes passionnées et prêtes à aider les étudiants à tout moment.<br>
+        Que cela soit la directrice, <b>Jeanne PELISSON</b>, le référent pédagogique, <b>Yoan THIRION</b> ou même le responsable des admissions, <b>Théo DAMOUR</b>, l'équipe est à l'écoute de tous les besoins des apprenants.
+    </section>
+    <section>
+        <img style="max-width:200px" src="img/jeanne.jpg" alt="Jeanne PELISSON, la directrice.">
+        <img style="max-width:200px" src="img/yoan.webp" alt="Yoan THIRION, le référent pédagogique.">
+        <img style="max-width:200px" src="img/theo.webp" alt="Théo DAMOUR, le responsable des admissions.">
+    </section>
+    <div>
+        <h3>Programme</h3>
+        Le programme pédagogique a été conçu pour préparer les étudiants à devenir des développeurs fullstacks, notamment centrés sur le web. Des fondamentaux jusqu'aux niveaux les plus hauts, les apprenants verront les multiples facettes de la programmation, accompagnés d'intervenants du monde professionnel, leur permettant également d'apprendre le fonctionnement des entreprises. Au bout de quelques années, Ils pourront aussi se spécialiser dans ce qu'ils aiment vraiment et s'ils le veulent, pourront obtenir un master après cinq années.
+    </div>
+    <aside>
+        <h2>Nous contacter</h2>
+        <form>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" name="prenom">
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email">
+            <label for="message">Message</label>
+            <input id="message" type="text" name="message">
+            <input type="submit" value="Envoyer">
+        </form>
+    </aside>
 </main>
 </body>
