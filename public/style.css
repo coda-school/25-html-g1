@@ -1,3 +1,59 @@
+/*Toutes les pages*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+}
+
+.dimensions {
+    max-width: 720px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/*Page du BDE*/
+
+.mainBDE {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentationBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
+
+.listeBDE {
+    margin-left: 20px;
+}
+
+.eventBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
+
+.partenariatBDE {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    background-color: gainsboro;
+}
+
+/*Page pedago*/
+
 .staffimage {
     float: left;
     max-width: 200px;
@@ -21,9 +77,4 @@
 .bloctexte {
     margin: 0 10vw 0 10vw;
     padding: 5px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
