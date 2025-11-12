@@ -23,14 +23,14 @@ header {
     align-items: center;
 }
 
-.logo {
+header .logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1010;
 }
 
-.logo img {
+header .logo img {
     height: 30px;
     vertical-align: middle;
     margin-right: 2px;
@@ -201,4 +201,47 @@ article p{
     padding-left: 10px;
     padding-right: 10px;
     hyphens: auto;
+}
+
+.style_date {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #190f2d;
+    color: white;
+    padding: 15px 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo{
+    position: absolute;
+}
+
+footer .logo img {
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 2px;
+    border: none !important;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    padding: 0;
 }
