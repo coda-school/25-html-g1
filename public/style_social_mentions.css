@@ -1,83 +1,77 @@
-/*Toutes les pages*/
+/*social*/
 
-* {
-    margin: 0;
-    padding: 0;
+.espacement{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
-
-header {
-    
-}
-
-.dimensions {
+.social-body{
     max-width: 720px;
+    margin: 0 auto;
+    font-style: sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
+.color-link{
+    color:white;
 }
 
-/*Page du BDE*/
-
-.mainBDE {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.presentationBDE {
-    display: flex;
-    flex-direction: column;
+.imgseminaire{
+    height: 150px;
+    width: auto;
+    position:relative;
+    left:30px;
     border: 3px solid;
-    background-color: gainsboro;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.listeBDE {
-    margin-left: 20px;
-}
-
-.eventBDE {
-    display: flex;
-    flex-direction: column;
+#img1{
+    height: 340px;
+    width: auto;
+    position:relative;
+    left:20px;
+    top: 20px;
     border: 3px solid;
-    background-color: gainsboro;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.partenariatBDE {
-    display: flex;
-    flex-direction: column;
+.contour{
     border: 3px solid;
-    background-color: gainsboro;
-}
-
-/*Page pedago*/
-
-.staffimage {
-    float: left;
-    max-width: 200px;
-    width: 33%;
-    padding: 15px;
-}
-
-.ligne {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 350px
-}
-
-.bloc {
-    background-color: #ddf842;
-    text-align: center;
-    margin: 2vw 5vh 2vw 5vh;
-}
-
-.bloctexte {
-    margin: 0 10vw 0 10vw;
+    box-sizing: border-box;
+    border-radius: 10px;
     padding: 5px;
+    background-color: #460ae6;
 }
+
+
+.titre{
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 450px;
+}   
+
+#titre-activites{
+    text-align: center;
+}
+
+#intro-seminaire{
+    max-width: 1000px;
+}
+
+.jour-ligne{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#activites{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*header*/
 
 html, body {
     margin: 0;
@@ -198,4 +192,63 @@ nav {
 }
 #burger-toggle:checked ~ .burger-icon .line:nth-child(3) {
     transform: translateY(-11px) rotate(-45deg);
+}
+
+/*mentions*/
+
+.mentions-body{
+    max-width: 720px;
+    margin: 0 auto;
+    font-style: sans-serif;
+}
+
+/*aside*/
+
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#nouscontacter{
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.elt-contact{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#block-prenom{
+    max-width: 255px;
+}
+
+#block-nom{
+    max-width: 240px;
+}
+
+#nom{
+    position: relative;
+    left: 30px; 
+}
+
+#block-email{
+    max-width: 255px;   
+}
+
+#email{
+    position: relative;
+    left: 15px;
+}
+
+#block-message{
+    max-width: 270px;
+}
+
+#envoyer{
+    margin-left: 72%;
+    margin-right: 20%;
 }
