@@ -31,20 +31,19 @@
 
 
 <main>
-    <h2 id="titre">La vie sociale chez les B1 2025 à Coda</h2>
+    <h2 class="titre">La vie sociale chez les B1 2025 à Coda</h2>
 
     <article id="seminaire">
-        <hgroup class="contour" id="intro-seminaire">
-        <h3>Le séminaire</h3>
-
-        <p>
-            Du 16 au 19 septembre, un séminaire de 4 jours fut organisé dans le château de Jambville en Île-de-France,
-            l'occasion pour les étudiants de B1 pour apprendre à mieux se connaître.
-        </p>
-        </hgroup>
-        <h3 id="titre-activites">Les activités proposées :</h3><br>
+        <article class="contour espacement" id="intro-seminaire">
+            <h3>Le séminaire</h3>
+            <p>
+                Du 16 au 19 septembre, un séminaire de 4 jours fut organisé dans le château de Jambville en Île-de-France,
+                l'occasion pour les étudiants de B1 pour apprendre à mieux se connaître.
+            </p>
+        </article>
+        <h3 class="espacement" id="titre-activites">Les activités proposées :</h3> 
         <article id="activites">
-            <div id="mardi" class="contour jour-ligne">
+            <div id="mardi" class="contour jour-ligne espacement">
                 <strong>Mardi 16: </strong> <br>
                 <ul>
                     <li>Visite de l'entreprise Weezevent</li>
@@ -53,7 +52,7 @@
                 <img id="img1" src="img/seminaire_mardi_01.jpg" alt="Photo de groupe des étudiants chez Weezevent">
             </div>
 
-            <div id="mercredi" class="contour jour-ligne">
+            <div id="mercredi" class="contour jour-ligne espacement">
                 <strong>Mercredi 17: </strong> <br>
                 <ul>
                     <li>Atelier: création de son arbre de vie</li>
@@ -65,7 +64,7 @@
                 <img class="imgseminaire" src="img/seminare_mercredi_03.JPG" alt="Un des groupes réalisant une activités du rallye cohésion">
             </div>
 
-            <div id="jeudi" class="contour jour-ligne">
+            <div id="jeudi" class="contour jour-ligne espacement">
                 <strong>Jeudi 18: </strong> <br>
                 <ul>
                     <li>Rencontre avec le CTO de Zenika Paris, Christophe Breheret-Girardin</li>
@@ -76,7 +75,7 @@
                 <img class="imgseminaire" src="img/seminaire_jeudi_02.jpg" alt="Construction de la table par les étudiants">
             </div>
 
-            <div id="vendredi" class="contour jour-ligne">
+            <div id="vendredi" class="contour jour-ligne espacement">
                 <strong>Vendredi 19: </strong> <br>
                 <ul>
                     <li>Démontage des tables</li>
@@ -86,35 +85,40 @@
 
         </article>
     </article>
-    <br>
 
-    <article class="contour" id="vie-au-campus">
+    <article class="contour espacement" id="vie-au-campus">
     <h3>La vie sur le campus</h3>
         <p>Sur le campus d'une part, les étudiant(e)s ont entre eux un fort esprit de cohésion.</p> 
         <p>Beaucoup de travaux se font en groupe, voire même à l'oral, permettant ainsi de forger un esprit d'équipe solide.</p>
         <p>De plus des activités en dehors des cours sont parfois organisées par le <a class="color-link" href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
-    </article>
-    <br>    
+    </article>  
 
-    <article class="contour" id="seminaire-mars">
+    <article class="contour espacement" id="seminaire-mars">
     <h3>Séminaire annoncé de Mars</h3>
         <p>En plus de celui de début d'année, un second seminaire est prévu pour les étudiants les 19 et 20 mars/</p>
     </article>
         
 </main>
 
-<aside>
+<aside  id="nouscontacter" class="espacement">
     <h2>Nous contacter</h2>
     <form>
-        <label for="prenom">Prénom</label>
-        <input id="prenom" type="text" name="prenom">
-        <label for="nom">Nom</label>
-        <input id="nom" type="text" name="nom">
-        <label for="email">Email</label>
-        <input id="email" type="text" name="email">
-        <label for="message">Message</label>
-        <input id="message" type="text" name="message">
-        <input type="submit" value="Envoyer">
+        <article id="inputs">
+            <div id="block-prenom" class="elt-contact">
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" name="prenom"> </div>
+            <div id="block-nom" class="elt-contact">
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom"> </div>
+            <div id="block-email" class="elt-contact">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email"> </div>
+            <div id="block-message" class="elt-contact">
+            <label for="message">Message</label>
+            <textarea id="message" type="text" name="message"></textarea> </div>
+        </article>
+        <br>
+        <input id="envoyer" type="submit" value="Envoyer">
     </form>
 </aside>
 

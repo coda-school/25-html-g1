@@ -1,3 +1,11 @@
+/*social*/
+
+.espacement{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .social-body{
     max-width: 720px;
     margin: 0 auto;
@@ -12,17 +20,18 @@
     height: 150px;
     width: auto;
     position:relative;
-    left:50px;
+    left:30px;
     border: 3px solid;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 #img1{
-    height: 375px;
+    height: 340px;
     width: auto;
     position:relative;
-    left:25px;
+    left:20px;
+    top: 20px;
     border: 3px solid;
     box-sizing: border-box;
     border-radius: 10px;
@@ -36,7 +45,8 @@
     background-color: #460ae6;
 }
 
-#titre{
+
+.titre{
     text-align: center;
     padding: 15px;
     margin: 20px auto;
@@ -48,8 +58,6 @@
 }
 
 #intro-seminaire{
-    padding: 15px;
-    margin: 20px auto;
     max-width: 1000px;
 }
 
@@ -60,10 +68,10 @@
 
 #activites{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
 }
+
+/*header*/
 
 html, body {
     margin: 0;
@@ -184,4 +192,63 @@ nav {
 }
 #burger-toggle:checked ~ .burger-icon .line:nth-child(3) {
     transform: translateY(-11px) rotate(-45deg);
+}
+
+/*mentions*/
+
+.mentions-body{
+    max-width: 720px;
+    margin: 0 auto;
+    font-style: sans-serif;
+}
+
+/*aside*/
+
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#nouscontacter{
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.elt-contact{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#block-prenom{
+    max-width: 255px;
+}
+
+#block-nom{
+    max-width: 240px;
+}
+
+#nom{
+    position: relative;
+    left: 30px; 
+}
+
+#block-email{
+    max-width: 255px;   
+}
+
+#email{
+    position: relative;
+    left: 15px;
+}
+
+#block-message{
+    max-width: 270px;
+}
+
+#envoyer{
+    margin-left: 72%;
+    margin-right: 20%;
 }
