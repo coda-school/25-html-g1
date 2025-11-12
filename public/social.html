@@ -5,9 +5,10 @@
     <title>Wikicoda - Social</title>
     <meta name="Vie Sociale" content="Page du Wiki de la promo B1 2025 de Coda Dijon consacrée à la vie sociale">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style_social.css">
 </head>
 
-<body>
+<body class="social-body">
 <header>
     <div class="logo">
         <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
@@ -31,27 +32,29 @@
 <a href="index.html">Retour à la page d'accueil</a>
 
 <main>
-    <h2>La vie sociale chez les B1 2025 à Coda</h2>
+    <h2 id="titre">La vie sociale chez les B1 2025 à Coda</h2>
 
     <article id="seminaire">
+        <hgroup class="contour" id="intro-seminaire">
         <h3>Le séminaire</h3>
 
-        <p id="intro-seminaire">
+        <p>
             Du 16 au 19 septembre, un séminaire de 4 jours fut organisé dans le château de Jambville en Île-de-France,
             l'occasion pour les étudiants de B1 pour apprendre à mieux se connaître.
         </p>
+        </hgroup>
+        <h3 id="titre-activites">Les activités proposées :</h3><br>
         <article id="activites">
-            <strong><em>Les activités proposées :</em></strong> <br>
-            <p id="mardi">
+            <div id="mardi" class="contour jour-ligne">
                 <strong>Mardi 16: </strong> <br>
                 <ul>
                     <li>Visite de l'entreprise Weezevent</li>
                     <li>Arriée au château de Jambville</li>
                 </ul>
-                <img class="imgseminaire" src="img/seminaire_mardi_01.jpg" alt="premiere photo du mardi">
-            </p>
+                <img id="img1" src="img/seminaire_mardi_01.jpg" alt="Photo de groupe des étudiants chez Weezevent">
+            </div>
 
-            <p id="mercredi">
+            <div id="mercredi" class="contour jour-ligne">
                 <strong>Mercredi 17: </strong> <br>
                 <ul>
                     <li>Atelier: création de son arbre de vie</li>
@@ -59,42 +62,44 @@
                     <li>Rallye cohésion en équipe dans le parc du château</li>
                     <li>Découverte en forêt sans lumière, pour les volontaires</li>
                 </ul>
-                <img class="imgseminaire" src="img/seminaire_mercredi_02.jpg" alt="premiere photo du mercredi">
-                <img class="imgseminaire" src="img/seminare_mercredi_03.JPG" alt="seconde photo du mercredi">
-            </p>
+                <img class="imgseminaire" src="img/seminaire_mercredi_02.jpg" alt="Un des groupes présentant leur prototype de véhicule selon les critères demandés">
+                <img class="imgseminaire" src="img/seminare_mercredi_03.JPG" alt="Un des groupes réalisant une activités du rallye cohésion">
+            </div>
 
-            <p id="jeudi">
+            <div id="jeudi" class="contour jour-ligne">
                 <strong>Jeudi 18: </strong> <br>
                 <ul>
-                    <li>Rencontre du patron de l'entreprise Zenika</li>
+                    <li>Rencontre avec le CTO de Zenika Paris, Christophe Breheret-Girardin</li>
                     <li>Atelier: construction de tables façon scouts</li>
                     <li>Repas trapeur, soirée autour du feu, et nuit sous la tente</li>
                 </ul>
-                <img class="imgseminaire" src="img/seminaire_jeudi_01.jpg" alt="premiere photo du jeudi">
-                <img class="imgseminaire" src="img/seminaire_jeudi_02.jpg" alt="seconde photo du jeudi">
-            </p>
+                <img class="imgseminaire" src="img/seminaire_jeudi_01.jpg" alt="Interview de Christophe Breheret-Girardin">
+                <img class="imgseminaire" src="img/seminaire_jeudi_02.jpg" alt="Construction de la table par les étudiants">
+            </div>
 
-            <p id="vendredi">
+            <div id="vendredi" class="contour jour-ligne">
                 <strong>Vendredi 19: </strong> <br>
                 <ul>
                     <li>Démontage des tables</li>
                     <li>Retour à Dijon</li>
                 </ul>
-            </p>
+            </div>
 
         </article>
     </article>
+    <br>
 
+    <article class="contour" id="vie-au-campus">
     <h3>La vie sur le campus</h3>
-    <article id="vie-au-campus">
-            <p>Sur le campus d'une part, les étudiant(e)s ont entre eux un fort esprit de cohésion.</p> 
-            <p>Beaucoup de travaux se font en groupe, voire même à l'oral, permettant ainsi de forger un esprit d'équipe solide.</p>
-            <p>De plus des activités en dehors des cours sont parfois organisées par le <a href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
+        <p>Sur le campus d'une part, les étudiant(e)s ont entre eux un fort esprit de cohésion.</p> 
+        <p>Beaucoup de travaux se font en groupe, voire même à l'oral, permettant ainsi de forger un esprit d'équipe solide.</p>
+        <p>De plus des activités en dehors des cours sont parfois organisées par le <a href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
     </article>
+    <br>    
 
+    <article class="contour" id="seminaire-mars">
     <h3>Séminaire annoncé de Mars</h3>
-    <article id="seminaire-mars">
-            <p>En plus de celui de début d'année, un second seminaire est prévu pour les étudiants les 19 et 20 mars/</p>
+        <p>En plus de celui de début d'année, un second seminaire est prévu pour les étudiants les 19 et 20 mars/</p>
     </article>
         
 </main>
@@ -115,7 +120,7 @@
 </aside>
 
 <footer>
-    <ul class="liste-menu">
+    <ul class="liste-menu-footer">
         <li><a href="mentions.html">Mentions Légales</a></li>
         <li><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g1">🔗Speedlify du projet</a></li>
         <li><a href="https://github.com/coda-school/25-html-g1">🔗Github du projet</a></li>

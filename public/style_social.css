@@ -1,4 +1,63 @@
+.social-body{
+    max-width: 720px;
+    margin: 0 auto;
+    font-style: sans-serif;
+}
+
+
 .imgseminaire{
-    height: 200px;
+    height: 150px;
     width: auto;
+    position:relative;
+    left:50px;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#img1{
+    height: 375px;
+    width: auto;
+    position:relative;
+    left:25px;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.contour{
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #460ae6;
+}
+
+#titre{
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 450px;
+}   
+
+#titre-activites{
+    text-align: center;
+}
+
+#intro-seminaire{
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.jour-ligne{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#activites{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
