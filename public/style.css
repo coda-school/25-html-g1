@@ -122,8 +122,8 @@ nav {
 
 h1 {
     border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    background: #E1D5FF;
+    /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
     display: flex;
     justify-content: center;
     max-width: 250px;
@@ -154,8 +154,8 @@ h1 {
 
 .presention_ecole_promotion article{
     border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    background: #E1D5FF;
+    /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
     border-radius: 10px;
     flex: 1 1 300px;
     box-sizing: border-box;
@@ -173,20 +173,32 @@ h1 {
 
 .presentation_wiki{
     border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    /*background: #9263F7;*/
+    background: #E1D5FF;
+    /*background: radial-gradient(circle, rgba(146, 99, 247, 1) 50%, rgba(225, 213, 255, 1) 100%);*/
     border-radius: 10px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
 }
 
+main a{
+    color: #460AE6;
+}
+
 .actualite{
     border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    background: #E1D5FF;
+    /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
     border-radius: 10px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+}
+
+article p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    hyphens: auto;
 }
