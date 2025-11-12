@@ -256,3 +256,27 @@ h1, h2 {
 p {
     font-family: Delius;
 }
+
+.selecteur_langue {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    z-index: 1010;
+}
+.selecteur_langue .drapeau {
+    width: 30px;
+    height: 20px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, opacity 0.2s;
+    cursor: pointer;
+}
+
+.langue_active {
+    display: none;
+}
+
+.langue-link:not(.langue_active):hover .drapeau {
+    border-color: white;
+    opacity: 0.8;
+}
