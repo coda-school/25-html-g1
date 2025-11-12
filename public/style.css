@@ -176,8 +176,6 @@ h1 {
     background: #460AE6;
     background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
     border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
@@ -188,8 +186,6 @@ h1 {
     background: #460AE6;
     background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
     border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
