@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-footer > ul > li > a[href^='http']:before {
-    content:"🔗"
-}
-
 header {
     
 }
