@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #FCF6F0;
 }
 
 * {
@@ -44,6 +45,7 @@ header .logo img {
     text-decoration: none;
     font-size: 30px;
     line-height: 1;
+    font-family: Orbitron, sans-serif;
 }
 
 nav {
@@ -244,4 +246,13 @@ footer ul {
     margin-right: auto;
     gap: 10px;
     padding: 0;
+    font-size: 15px;
+}
+
+h1, h2 {
+    font-family: Orbitron;
+}
+
+p {
+    font-family: Delius;
 }
