@@ -1,0 +1,196 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #190f2d;
+    color: white;
+    padding: 15px 20px;
+    height: 70px;
+    /*width: 100%;*/
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /*position: relative;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1010;
+}
+
+.logo img {
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 2px;
+    border: none !important;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.line {
+    display: block;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.liste-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #460ae6;
+    transition: max-height 0.3s ease-in-out;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.liste-menu li {
+    text-align: center;
+    border-top: 1px solid #49637e;
+}
+
+.liste-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.liste-menu li a:hover {
+    background-color: #34495e;
+}
+
+#burger-toggle:checked ~ .burger-icon ~ .liste-menu {
+    max-height: 500px;
+}
+
+#burger-toggle:checked ~ .burger-icon .line:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+#burger-toggle:checked ~ .burger-icon .line:nth-child(2) {
+    opacity: 0;
+}
+#burger-toggle:checked ~ .burger-icon .line:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+h1 {
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/*.presentation_ecole{
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}*/
+
+.presention_ecole_promotion{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.presention_ecole_promotion article{
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    border-radius: 10px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+/*.presentation_promotion{
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}*/
+
+.presentation_wiki{
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.actualite{
+    border-style: solid;
+    background: #460AE6;
+    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}

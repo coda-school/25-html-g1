@@ -2,13 +2,16 @@
 <html lang=fr>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikicoda - Accueil</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="description"
+          content="page d'accueil du wiki de l'école, décrivant les généralités concernant la présentation de la promotion, de l'école et du wiki."/>
 </head>
 <body>
 <header>
     <div class="logo">
-        <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        <a href="index.html"><img alt="logo de coda" src="img/logocoda.png">Wikicoda</a>
     </div>
     <nav aria-label="Menu principal">
         <input type="checkbox" id="burger-toggle" class="hidden-checkbox"/>
@@ -26,7 +29,7 @@
 </header>
 <main>
     <h1>Wikicoda</h1>
-    <article>
+    <article class="presentation_wiki">
         <h2>Présentation du wiki de l'école</h2>
         <p>
             Bienvenue sur le wiki de l'école Coda. Ce site a pour vocation a recenser une multitude d'informations
@@ -37,53 +40,55 @@
             variété de cours, centré sur une <a href="pedago.html">pédagogie</a> novatrice.
         </p>
     </article>
-    <article>
-        <h2>Présentation de Coda</h2>
-        <p>
-            Coda School est une école d'informatique reconnue par l'État, formant des étudiants jusqu'à Bac+5 (Bachelor
-            et Master of Science) avec une pédagogie moderne et professionnalisante. Le campus de Dijon, situé Place des
-            Nations Unies, offre des locaux partagés avec l'ESADD (École de Design Digital) et dispose d'infrastructures
-            modernes (amphithéâtre, salles connectées, espace "design thinking"). L'école se distingue par son approche
-            axée sur la pratique, l'alternance possible pour tous les cursus, et une forte sensibilisation aux enjeux
-            éthiques et de la sobriété numérique. Les formations se spécialisent notamment en Développement Full
-            Stack(Bachelor),
-            Systèmes & Réseaux(Bachelor), Cybersécurité(Master), IA & Data Science(Master) et Architecture/Développement
-            logiciel(Master) en visant l'insertion professionnelle rapide grâce à
-            de nombreux partenariats locaux. Si vous souhaitez en savoir davantage sur l'école cela se passera sur <a
-                href="https://www.coda.school/campus/dijon" target="_blank">🔗le site de l'école</a>.
-        </p>
-    </article>
-    <article>
+    <div class="presention_ecole_promotion">
+        <article class="presentation_ecole">
+            <h2>Présentation de Coda</h2>
+            <p>
+                Coda School est une école d'informatique reconnue par l'État, formant des étudiants jusqu'à Bac+5 (Bachelor
+                et Master of Science) avec une pédagogie moderne et professionnalisante. Le campus de Dijon, situé Place des
+                Nations Unies, offre des locaux partagés avec l'ESADD (École de Design Digital) et dispose d'infrastructures
+                modernes (amphithéâtre, salles connectées, espace "design thinking"). L'école se distingue par son approche
+                axée sur la pratique, l'alternance possible pour tous les cursus, et une forte sensibilisation aux enjeux
+                éthiques et de la sobriété numérique. Les formations se spécialisent notamment en Développement Full
+                Stack(Bachelor),
+                Systèmes & Réseaux(Bachelor), Cybersécurité(Master), IA & Data Science(Master) et Architecture/Développement
+                logiciel(Master) en visant l'insertion professionnelle rapide grâce à
+                de nombreux partenariats locaux. Si vous souhaitez en savoir davantage sur l'école cela se passera sur <a
+                    href="https://www.coda.school/campus/dijon" target="_blank">🔗le site de l'école</a>.
+            </p>
+        </article>
+        <article class="presentation_promotion">
+            <h2>Présentation de la promotion</h2>
+            <p>
+                La "Promo 2025 Développeur Fullstack" est souvent considérée comme une véritable équipe de 25 explorateurs
+                du numérique. Pour eux, ce n'est pas juste un groupe, c'est leur filet de sécurité et leur famille
+                d'adoption pour les études ! Ensemble, les étudiants partagent les nuits blanches de code, les moments
+                intenses des séminaires, et l'excitation des projets collectifs. C'est dans cette ambiance de forte entraide
+                et de bonne humeur que les liens se renforcent, construisant à la fois leur futur réseau professionnel et
+                des amitiés solides, transformant ainsi leurs années de formation en une aventure mémorable.
+            </p>
+        </article>
+    </div>
+    <article class="actualite">
         <h2>Actualités</h2>
         <p>
             Le 04/11/2025: Le premier coda-talk a été réalisé par Marc Bouvier, intervenant en HTML/CSS au sein de
             l'école. Certains de nos étudiants ont pu y participer en compagnie de professionnel du milieu, ils ont
             alors découvert les tests au service de l'accessibilité:<a
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7391812764048191488/" target="_blank">🔗ça se
-            passe ici.</a>
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7391812764048191488/" target="_blank">🔗l'article
+            LinkefIn du Coda-talk.</a>
         </p>
         <p>
             Le 15/10/2025: Les étudiants de l'ESADD ont organisé un évènement au sein des locaux afin de soutenir la
             cause de l'octobre rose:<a target="_blank"
-                                       href="https://www.instagram.com/p/DP1aeKpjOGQ/?igsh=YTM0d2k2ZjgwZmE5">🔗ça se passe
-            ici.</a>
+                                       href="https://www.instagram.com/p/DP1aeKpjOGQ/?igsh=YTM0d2k2ZjgwZmE5">🔗la
+            publication Instagram concernant l'Octobre Rose.</a>
         </p>
         <p>
-            La semaine 15/09/2025 au 19/09/2025: les étudiants en première année de bachelor "Développeur Fullstack" ont
+            La semaine du 15/09/2025 au 19/09/2025: les étudiants en première année de bachelor "Développeur Fullstack" ont
             réalisé leru semaine d'intégration en région parisienne, au sein du chateau de Jambville:<a
-                href="https://www.instagram.com/p/DO6RPk5CPua/?igsh=ZTU1cXU3cGZ0YXFm" target="_blank">🔗ça se passe
-            ici.</a>
-        </p>
-    </article>
-    <article>
-        <h2>Présentation de la promo</h2>
-        <p>
-            La "Promo 2025 Développeur Fullstack" est souvent considérée comme une véritable équipe de 25 explorateurs
-            du numérique. Pour eux, ce n'est pas juste un groupe, c'est leur filet de sécurité et leur famille
-            d'adoption pour les études ! Ensemble, les étudiants partagent les nuits blanches de code, les moments
-            intenses des séminaires, et l'excitation des projets collectifs. C'est dans cette ambiance de forte entraide
-            et de bonne humeur que les liens se renforcent, construisant à la fois leur futur réseau professionnel et
-            des amitiés solides, transformant ainsi leurs années de formation en une aventure mémorable.
+                href="https://www.instagram.com/p/DO6RPk5CPua/?igsh=ZTU1cXU3cGZ0YXFm" target="_blank">🔗la publication
+            Instagram concernant le séminaire d'intégration.</a>
         </p>
     </article>
 </main>
@@ -95,9 +100,9 @@
         <label for="nom">Nom</label>
         <input id="nom" type="text" name="nom">
         <label for="email">Email</label>
-        <input id="email" type="text" name="email">
+        <input id="email" type="email" name="email">
         <label for="message">Message</label>
-        <input id="message" type="text" name="message">
+        <textarea id="message" name="message"></textarea>
         <input type="submit" value="Envoyer">
     </form>
 </aside>
