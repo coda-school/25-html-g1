@@ -23,10 +23,72 @@ header {
 }
 
 @media (max-width: 320px) {
-   .logo {
-       height: 40px;
-       width: 40px;
-   }
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+    header .logo {
+        position: static !important;
+        transform: none !important;
+        left: auto !important;
+        margin: 0 0 10px 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .logo a {
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0 auto 10px auto !important;
+        justify-content: center;
+        order: 1;
+    }
+
+    .selecteur_langue {
+        margin: 0 auto !important;
+        justify-content: center;
+        order: 2;
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 10px 5px;
+    }
+
+    footer .logo {
+        position: static !important; /* Force le retrait du positionnement absolu */
+        margin-bottom: 10px !important; /* Ajoute un espacement sous le logo */
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .logo a {
+        justify-content: center;
+    }
+
+    footer ul {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        width: 100%;
+        align-items: center;
+    }
+
+    footer ul li {
+        width: 100%;
+    }
 }
 
 .staffimage {
