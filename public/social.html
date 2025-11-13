@@ -6,6 +6,12 @@
     <meta name="Vie Sociale" content="Page du Wiki de la promo B1 2025 de Coda Dijon consacrée à la vie sociale">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style_social_mentions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
 </head>
 
 <body class="social-body">
@@ -27,11 +33,15 @@
             <li><a href="pedago.html">Pédagogie de l'école</a></li>
         </ul>
     </nav>
+    <div class="selecteur_langue">
+        <a href="" class="langue_link langue_active"><img class="drapeau" src="/img/drpfr.jpg" alt="petit drapeau français permmettant d'appliquer le français au contenu du site"></a>
+        <a href="" class="langue-link"><img class="drapeau" src="/img/drpen.jpg" alt="petit drapeau anglais permettant d'appliquer l'angalis à l'ensemble du site"></a>
+    </div>
 </header>
 
 
 <main>
-    <h2 class="titre">La vie sociale chez les B1 2025 à Coda</h2>
+    <h2 class="titre espacement">La vie sociale chez les B1 2025 à Coda</h2>
 
     <article id="seminaire">
         <article class="contour espacement" id="intro-seminaire">
@@ -42,8 +52,8 @@
             </p>
         </article>
         <h3 class="espacement" id="titre-activites">Les activités proposées :</h3> 
-        <article id="activites">
-            <div id="mardi" class="contour jour-ligne espacement">
+        <article id="activites" class="espacement">
+            <div id="mardi" class="contour jour-ligne">
                 <strong>Mardi 16: </strong> <br>
                 <ul>
                     <li>Visite de l'entreprise Weezevent</li>
@@ -52,7 +62,7 @@
                 <img id="img1" src="img/seminaire_mardi_01.jpg" alt="Photo de groupe des étudiants chez Weezevent">
             </div>
 
-            <div id="mercredi" class="contour jour-ligne espacement">
+            <div id="mercredi" class="contour jour-ligne">
                 <strong>Mercredi 17: </strong> <br>
                 <ul>
                     <li>Atelier: création de son arbre de vie</li>
@@ -64,7 +74,7 @@
                 <img class="imgseminaire" src="img/seminare_mercredi_03.JPG" alt="Un des groupes réalisant une activités du rallye cohésion">
             </div>
 
-            <div id="jeudi" class="contour jour-ligne espacement">
+            <div id="jeudi" class="contour jour-ligne">
                 <strong>Jeudi 18: </strong> <br>
                 <ul>
                     <li>Rencontre avec le CTO de Zenika Paris, Christophe Breheret-Girardin</li>
@@ -75,7 +85,7 @@
                 <img class="imgseminaire" src="img/seminaire_jeudi_02.jpg" alt="Construction de la table par les étudiants">
             </div>
 
-            <div id="vendredi" class="contour jour-ligne espacement">
+            <div id="vendredi" class="contour jour-ligne">
                 <strong>Vendredi 19: </strong> <br>
                 <ul>
                     <li>Démontage des tables</li>
@@ -90,7 +100,7 @@
     <h3>La vie sur le campus</h3>
         <p>Sur le campus d'une part, les étudiant(e)s ont entre eux un fort esprit de cohésion.</p> 
         <p>Beaucoup de travaux se font en groupe, voire même à l'oral, permettant ainsi de forger un esprit d'équipe solide.</p>
-        <p>De plus des activités en dehors des cours sont parfois organisées par le <a href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
+        <p>De plus des activités en dehors des cours sont parfois organisées par le <a class="color-link" href="bde.html">BDE de Coda</a> comme l'after-work du 24 octobre, la veille de leur semaine de vacances, avec l'école ESADD.</p>
     </article>  
 
     <article class="contour espacement" id="seminaire-mars">
@@ -107,12 +117,15 @@
             <div id="block-prenom" class="elt-contact">
             <label for="prenom">Prénom</label>
             <input id="prenom" type="text" name="prenom"> </div>
+
             <div id="block-nom" class="elt-contact">
             <label for="nom">Nom</label>
             <input id="nom" type="text" name="nom"> </div>
+
             <div id="block-email" class="elt-contact">
             <label for="email">Email</label>
             <input id="email" type="text" name="email"> </div>
+
             <div id="block-message" class="elt-contact">
             <label for="message">Message</label>
             <textarea id="message" type="text" name="message"></textarea> </div>
@@ -126,10 +139,10 @@
     <div class="logo">
         <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
     </div>
-    <ul class="liste-menu-footer">
-        <li><a href="mentions.html">Mentions Légales</a></li>
-        <li><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g1">🔗Speedlify du projet</a></li>
-        <li><a href="https://github.com/coda-school/25-html-g1">🔗Github du projet</a></li>
+    <ul>
+        <li><a href="">Mentions légales</a></li>
+        <li><a href="">Speedify du projet</a></li>
+        <li><a href="">Github du projet</a></li>
     </ul>
 </footer>
 

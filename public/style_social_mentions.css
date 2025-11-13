@@ -1,3 +1,20 @@
+/*commun*/
+
+article p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    hyphens: auto;
+}
+
+h2, h3{
+    font-family: Orbitron;
+}
+
+li, p{
+    font-family: Delius;
+}
+
 /*social*/
 
 .espacement{
@@ -7,10 +24,8 @@
     margin-right: 25px;
 }
 .social-body{
-    font-style: sans-serif;
     background-color: #FCF6F0;
 }
-
 
 .imgseminaire{
     height: 150px;
@@ -45,8 +60,6 @@
 .titre{
     text-align: center;
     padding: 15px;
-    margin: 20px auto;
-    max-width: 450px;
 }   
 
 #titre-activites{
@@ -65,8 +78,11 @@
 
 #activites{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
+
 
 /*header*/
 
@@ -94,21 +110,21 @@ header {
     align-items: center;
 }
 
-.logo {
+header .logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1010;
 }
 
-.logo img {
+header .logo img {
     height: 30px;
     vertical-align: middle;
     margin-right: 2px;
     border: none !important;
 }
 
-.logo a {
+header .logo a {
     display: flex;
     align-items: center;
     color: white;
@@ -191,6 +207,30 @@ nav {
     transform: translateY(-11px) rotate(-45deg);
 }
 
+.selecteur_langue {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    z-index: 1010;
+}
+.selecteur_langue .drapeau {
+    width: 30px;
+    height: 20px;
+    display: block;
+    border: 2px solid transparent;
+    transition: border-color 0.2s, opacity 0.2s;
+    cursor: pointer;
+}
+
+.langue_active {
+    display: none;
+}
+
+.langue-link:not(.langue_active):hover .drapeau {
+    border-color: white;
+    opacity: 0.8;
+}
+
 /*mentions*/
 
 .mentions-body{
@@ -248,4 +288,46 @@ nav {
 #envoyer{
     margin-left: 72%;
     margin-right: 20%;
+}
+
+/*footer*/
+
+footer {
+    background-color: #190f2d;
+    color: white;
+    padding: 15px 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo{
+    position: absolute;
+}
+
+footer .logo img {
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 2px;
+    border: none !important;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    padding: 0;
+    font-size: 15px;
 }
