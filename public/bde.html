@@ -134,18 +134,30 @@
                         participons à leurs activités comme eux aux notres.</p>
                 </article>
         </main>
-        <aside>
+
+        <aside id="nouscontacter" class="espacement">
             <h2>Nous contacter</h2>
             <form>
-                <label for="prenom">Prénom</label>
-                <input id="prenom" type="text" name="prenom">
-                <label for="nom">Nom</label>
-                <input id="nom" type="text" name="nom">
-                <label for="email">Email</label>
-                <input id="email" type="text" name="email">
-                <label for="message">Message</label>
-                <input id="message" type="text" name="message">
-                <input type="submit" value="Envoyer">
+                <section id="inputs">
+                    <div id="block-prenom" class="elt-contact">
+                        <label for="prenom">Prénom</label>
+                        <input id="prenom" type="text" name="prenom">
+                    </div>
+                    <div id="block-nom" class="elt-contact">
+                        <label for="nom">Nom</label>
+                        <input id="nom" type="text" name="nom">
+                    </div>
+                    <div id="block-email" class="elt-contact">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email">
+                    </div>
+                    <div id="block-message" class="elt-contact">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                </section>
+                <br>
+                <input type="submit" value="Envoyer" id="envoyer">
             </form>
         </aside>
         <footer>
