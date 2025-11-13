@@ -125,7 +125,6 @@ nav {
 h1 {
     border-style: solid;
     background: #E1D5FF;
-    /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
     display: flex;
     justify-content: center;
     max-width: 250px;
@@ -133,17 +132,6 @@ h1 {
     margin-right: auto;
     border-radius: 10px;
 }
-
-/*.presentation_ecole{
-    border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-}*/
 
 .presention_ecole_promotion{
     display: flex;
@@ -162,16 +150,6 @@ h1 {
     flex: 1 1 300px;
     box-sizing: border-box;
 }
-/*.presentation_promotion{
-    border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-}*/
 
 .presentation_wiki{
     border-style: solid;
@@ -249,7 +227,7 @@ footer ul {
     font-size: 15px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Orbitron;
 }
 
