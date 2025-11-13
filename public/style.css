@@ -25,7 +25,7 @@ header {
 @media (max-width: 320px) {
    .logo {
        height: 40px;
-       witdh: 40px;
+       width: 40px;
    }
 }
 
