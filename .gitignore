@@ -1,3 +1,5 @@
 .idea
 .vite
 _private
+*css/*.css
+!css/style.css
