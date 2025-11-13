@@ -340,6 +340,11 @@ p {
 }
 
 /*Page de Remy*/
+.espacement{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .social-body{
     background-color: #FCF6F0;
 }
@@ -398,9 +403,23 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 25px;
+}
+
+#vie-au-campus{
+    margin-bottom: 25px;
+}
+
+#seminaire-mars{
+    margin-bottom: 25px;
 }
 
 /*Aside*/
+
+aside {
+    margin-bottom: 25px;
+}
+
 #inputs{
     display: flex;
     flex-wrap: wrap;
