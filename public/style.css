@@ -200,6 +200,7 @@ footer {
     height: 70px;
     display: flex;
     align-items: center;
+    margin-top: 25px;
 }
 
 footer .logo{
