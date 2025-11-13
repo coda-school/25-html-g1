@@ -200,7 +200,6 @@ footer {
     height: 70px;
     display: flex;
     align-items: center;
-    margin-top: 25px;
 }
 
 footer .logo{
@@ -416,6 +415,11 @@ p {
 }
 
 /*Aside*/
+
+aside {
+    margin-bottom: 25px;
+}
+
 #inputs{
     display: flex;
     flex-wrap: wrap;
