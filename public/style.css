@@ -154,7 +154,7 @@ h1 {
     margin-right: 25px;
 }
 
-.presention_ecole_promotion article{
+.presention_ecole_promotion article {
     border-style: solid;
     background: #E1D5FF;
     /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
@@ -279,4 +279,18 @@ p {
 .langue-link:not(.langue_active):hover .drapeau {
     border-color: white;
     opacity: 0.8;
+}
+
+.staffimage {
+    float: left;
+    max-width: 200px;
+    width: 33%;
+    padding: 15px;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px
 }
