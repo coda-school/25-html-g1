@@ -125,7 +125,6 @@ nav {
 h1 {
     border-style: solid;
     background: #E1D5FF;
-    /*background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);*/
     display: flex;
     justify-content: center;
     max-width: 250px;
@@ -133,17 +132,6 @@ h1 {
     margin-right: auto;
     border-radius: 10px;
 }
-
-/*.presentation_ecole{
-    border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-}*/
 
 .presention_ecole_promotion{
     display: flex;
@@ -162,16 +150,6 @@ h1 {
     flex: 1 1 300px;
     box-sizing: border-box;
 }
-/*.presentation_promotion{
-    border-style: solid;
-    background: #460AE6;
-    background: radial-gradient(circle, rgba(70, 10, 230, 1) 50%, rgba(104, 60, 235, 1) 100%);
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-}*/
 
 .presentation_wiki{
     border-style: solid;
@@ -249,7 +227,7 @@ footer ul {
     font-size: 15px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Orbitron;
 }
 
@@ -279,4 +257,195 @@ p {
 .langue-link:not(.langue_active):hover .drapeau {
     border-color: white;
     opacity: 0.8;
+}
+
+/*Page de Jojo*/
+.presentationBDE {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #E1D5FF;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.listeBDE {
+    padding-left: 20px;
+}
+
+.eventBDE {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.eventBDE article {
+    border-style: solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1 1 300px;
+    background-color: #E1D5FF;
+}
+
+.Psalsa {
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #E1D5FF;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Psmart {
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #E1D5FF;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Pesadd {
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #E1D5FF;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.titleEvent, .titlePart {
+    display: flex;
+    border-style: solid;
+    background: #E1D5FF;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/*Page de Remy*/
+.espacement{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.social-body{
+    background-color: #FCF6F0;
+}
+
+.imgseminaire{
+    height: 150px;
+    width: auto;
+    position:relative;
+    left:30px;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#img1{
+    height: 340px;
+    width: auto;
+    position:relative;
+    left:20px;
+    top: 20px;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.contour{
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #E1D5FF;
+}
+
+
+.titre{
+    text-align: center;
+    padding: 15px;
+}
+
+#titre-activites{
+    text-align: center;
+}
+
+#intro-seminaire{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.jour-ligne{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#activites{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Aside*/
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#nouscontacter{
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.elt-contact{
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+#block-prenom{
+    max-width: 255px;
+}
+
+#block-nom{
+    max-width: 240px;
+}
+
+#nom{
+    position: relative;
+    left: 30px;
+}
+
+#block-email{
+    max-width: 255px;
+}
+
+#email{
+    position: relative;
+    left: 15px;
+}
+
+#block-message{
+    max-width: 270px;
+}
+
+#envoyer{
+    margin-left: 72%;
+    margin-right: 20%;
 }
