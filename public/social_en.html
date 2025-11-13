@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index_en.html"> <img alt="coda's icon" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        </div>
+        <!--<h1>Wiki coda</h1>-->
+        <nav aria-label="Menu principal">
+            <input type="checkbox" id="burger-toggle" class="hidden-checkbox" />
+            <label for="burger-toggle" class="burger-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+            <ul class="liste-menu">
+                <li><a href="bde_en.html">Student office</a></li>
+                <li><a href="social_en.html">Social life on the campus</a></li>
+                <li><a href="pedago_en.html">School's teaching methods</a></li>
+            </ul>
+        </nav>
+        <div class="selecteur_langue">
+            <a href="" class="langue_link"><img class="drapeau" src="img/drpfr.jpg"
+                    alt="tiny french flag enabling to apply french on the website's content"></a>
+            <a href="" class="langue-link langue_active"><img class="drapeau" src="img/drpen.jpg"
+                    alt="tiny british flag enabling to apply english on the website's content"></a>
+        </div>
+        <br>
+    </header>
+
+
+    <main>
+        <h1 class="titre">Social life at Coda 2025</h1>
+
+        <article id="seminaire">
+            <article class="contour espacement" id="intro-seminaire">
+                <h2>Seminar</h2>
+                <p>
+                    From September 16th to 19th, a 4-day seminar was organized at Jambville Castle in Île-de-France
+                    — an opportunity for first-year students to get to know each other better.
+                </p>
+            </article>
+
+            <h2 class="espacement" id="titre-activites">Activities offered:</h2>
+            <article id="activites" class="espacement">
+                <div id="mardi" class="contour jour-ligne">
+                    <strong>Tuesday, September 16th:</strong> <br>
+                    <ul>
+                        <li>Visit to the company Weezevent</li>
+                        <li>Arrival at Jambville Castle</li>
+                    </ul>
+                    <img id="img1" src="img/seminaire_mardi_01.jpg" alt="Group photo of students at Weezevent">
+                </div>
+
+                <div id="mercredi" class="contour jour-ligne">
+                    <strong>Wednesday, September 17th:</strong> <br>
+                    <ul>
+                        <li>Workshop: creating your “tree of life”</li>
+                        <li>Workshop: team design of a vehicle based on client requirements</li>
+                        <li>Team-building rally in the castle park</li>
+                        <li>Night walk in the forest (for volunteers)</li>
+                    </ul>
+                    <img class="imgseminaire" src="img/seminaire_mercredi_02.jpg"
+                        alt="One of the groups presenting their vehicle prototype based on given objectives">
+                    <img class="imgseminaire" src="img/seminare_mercredi_03.JPG"
+                        alt="A group taking part in a team-building activity">
+                </div>
+
+                <div id="jeudi" class="contour jour-ligne">
+                    <strong>Thursday, September 18th:</strong> <br>
+                    <ul>
+                        <li>Meeting with Zenika Paris CTO, Christophe Breheret-Girardin</li>
+                        <li>Workshop: building scout-style tables</li>
+                        <li>Campfire dinner, evening around the fire, and night under tents</li>
+                    </ul>
+                    <img class="imgseminaire" src="img/seminaire_jeudi_01.jpg"
+                        alt="Interview with Christophe Breheret-Girardin">
+                    <img class="imgseminaire" src="img/seminaire_jeudi_02.jpg"
+                        alt="Students building their wooden table">
+                </div>
+
+                <div id="vendredi" class="contour jour-ligne">
+                    <strong>Friday, September 19th:</strong> <br>
+                    <ul>
+                        <li>Table disassembly</li>
+                        <li>Return to Dijon</li>
+                    </ul>
+                </div>
+            </article>
+        </article>
+
+        <article class="contour espacement" id="vie-au-campus">
+            <h2>Campus life</h2>
+            <p>On campus, students have a strong sense of community and team spirit.</p>
+            <p>Many assignments are done in groups, and even oral presentations are often collaborative, helping to
+                build a solid team mindset.</p>
+            <p>Additionally, extracurricular activities are sometimes organized by the <a class="color-link"
+                    href="bde.html">Coda Student Office (BDE)</a>, such as the after-work event on October 24th, the day
+                before vacation week, in partnership with the ESADD school.</p>
+        </article>
+
+        <article class="contour espacement" id="seminaire-mars">
+            <h2>Upcoming March seminar</h2>
+            <p>In addition to the one held at the beginning of the year, a second seminar is scheduled for March 19th
+                and 20th for all students.</p>
+        </article>
+    </main>
+    <aside id="nouscontacter" class="espacement">
+        <h2>Contact us</h2>
+        <form>
+            <section id="inputs">
+                <div id="block-prenom" class="elt-contact">
+                    <label for="prenom">First n.</label>
+                    <input id="prenom" type="text" name="prenom">
+                </div>
+                <div id="block-nom" class="elt-contact">
+                    <label for="nom">Last n.</label>
+                    <input id="nom" type="text" name="nom">
+                </div>
+                <div id="block-email" class="elt-contact">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div id="block-message" class="elt-contact">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+            </section>
+            <br>
+            <input type="submit" value="Send" id="envoyer">
+        </form>
+    </aside>
+
+    <footer>
+        <div class="logo">
+            <a href="index_en.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        </div>
+        <ul>
+            <li><a href="mentions_en.html">Legal notices</a></li>
+            <li><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g1/" target="blank_">🔗Project's
+                    Speedlify</a></li>
+            <li><a href="https://github.com/coda-school/25-html-g1" target="blank_">🔗Project's Github</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
