@@ -456,6 +456,8 @@ p {
     max-width: 200px;
     width: 33%;
     padding: 15px;
+    border: solid;
+    border-radius: 25px;
 }
 
 .lignestaff {
