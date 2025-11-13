@@ -18,21 +18,23 @@ header {
     top: 0;
     z-index: 1000;
     display: flex;
-    justify-content: flex-start;.staffimage {
+    justify-content: flex-start;
+    align-items: center;
+}
+.staffimage {
     float: left;
     max-width: 200px;
     width: 33%;
     padding: 15px;
-}
-
-    .ligne {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 350px
-    }
     align-items: center;
 }
+.lignestaff {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px
+}
+
 
 header .logo {
     position: absolute;
