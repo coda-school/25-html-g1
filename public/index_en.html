@@ -1,1 +1,145 @@
-
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Wikicoda</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <meta name="description"
+          content="home page of the school wiki, describing general information about the class, the school, and the wiki."/>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html"><img alt="logo de coda" src="img/logocoda.png">Wikicoda</a>
+    </div>
+    <nav aria-label="Menu principal">
+        <input type="checkbox" id="burger-toggle" class="hidden-checkbox"/>
+        <label for="burger-toggle" class="burger-icon">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <ul class="liste-menu">
+            <li><a href="bde.html">Student office</a></li>
+            <li><a href="social.html">Social life on the campus</a></li>
+            <li><a href="pedago.html">Teaching methods</a></li>
+        </ul>
+    </nav>
+    <div class="selecteur_langue">
+        <a href="" class="langue_link"><img class="drapeau" src="img/drpfr.jpg"
+                                            alt="small French flag allowing French to be applied to the site's content"></a>
+        <a href="" class="langue-link langue_active"><img class="drapeau" src="img/drpen.jpg"
+                                                          alt="small English flag allowing English to be applied to the entire site"></a>
+    </div>
+</header>
+<main>
+    <h1>Wikicoda</h1>
+    <article class="presentation_wiki">
+        <h2>Introduction to the school wiki</h2>
+        <p>
+            Welcome to the Coda School wiki. This site is designed to provide a wealth of information about the Coda
+            School in Dijon and its campus. Here you will find various articles about the school and its campus. The
+            school has a <a href="bde_en.html">student office(SO)</a> currently being set up, which will further enhance
+            <a
+                    href="social_en.html">social life</a> on campus.
+            However, higher education is not all fun and games; the school offers a wide
+            variety of courses, centered on innovative <a href="pedago_en.html">teaching methods</a>.
+        </p>
+    </article>
+    <div class="presention_ecole_promotion">
+        <article class="presentation_ecole">
+            <h2>Presentation of Coda</h2>
+            <p>
+                Coda School is a state-recognized computer science school that trains students up to Bac+5 (Bachelor's
+                and Master's degrees) using modern, professional teaching methods. The Dijon campus, located on Place
+                des Nations Unies, shares premises with ESADD (School of Digital Design) and has modern facilities
+                (lecture hall, connected rooms, “design thinking” space). The school stands out for its
+                practice-oriented approach, work-study options for all programs, and a strong awareness of ethical
+                issues and digital sobriety. The programs specialize in FullStack Development (Bachelor's), Systems &
+                Networks (Bachelor's), Cybersecurity (Master's), AI & Data Science (Master's), and Software
+                Architecture/Development (Master's), with the aim of rapid professional integration thanks to numerous
+                local partnerships. If you would like to learn more about the school, please visit
+                <a
+                        href="https://www.coda.school/campus/dijon" target="_blank">🔗the school's website</a>.
+            </p>
+        </article>
+        <article class="presentation_promotion">
+            <h2>Presentation of the promotion</h2>
+            <p>
+                The “Promo 2025 Fullstack Developer” is often considered a true team of 25 digital explorers. For them,
+                it's not just a group, it's their safety net and their adopted family for their studies! Together, the
+                students share all-night coding sessions, intense seminars, and the excitement of group projects. It is
+                in this atmosphere of strong mutual support and good humor that bonds are strengthened, building both
+                their future professional network and solid friendships, thus transforming their years of training into
+                a memorable adventure.
+            </p>
+        </article>
+    </div>
+    <article class="actualite">
+        <h2>News</h2>
+        <p>
+            <span class="style_date">On November 4, 2025 </span>: The first coda-talk was led by Marc Bouvier, who
+            teaches HTML/CSS at the school. Some of our students were able to participate alongside professionals in the
+            field, where they learned about accessibility testing:<a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7391812764048191488/" target="_blank">🔗the
+            LinkedIn article from Coda-talk.</a>
+        </p>
+        <p>
+            <span class="style_date">On October 15, 2025 </span>: ESADD students organized an event on campus to support
+            the Pink October cause:<a target="_blank"
+                                      href="https://www.instagram.com/p/DP1aeKpjOGQ/?igsh=YTM0d2k2ZjgwZmE5">🔗the
+            Instagram post about Pink October.</a>
+        </p>
+        <p>
+            <span class="style_date">The week of 09/15/2025 to 09/19/2025 </span>: First-year students in the
+            Full Stack Developer bachelor's program completed their orientation week in the Paris region, at the Château
+            de Jambville:<a
+                href="https://www.instagram.com/p/DO6RPk5CPua/?igsh=ZTU1cXU3cGZ0YXFm" target="_blank">🔗the Instagram
+            post about the orientation seminar.</a>
+        </p>
+    </article>
+</main>
+<aside id="nouscontacter" class="espacement">
+    <h2>Contact us</h2>
+    <form>
+        <section id="inputs">
+            <div id="block-prenom" class="elt-contact">
+                <label for="prenom">First n</label>
+                <input id="prenom" type="text" name="prenom">
+            </div>
+            <div id="block-nom" class="elt-contact">
+                <label for="nom">Last n</label>
+                <input id="nom" type="text" name="nom">
+            </div>
+            <div id="block-email" class="elt-contact">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email">
+            </div>
+            <div id="block-message" class="elt-contact">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+        </section>
+        <br>
+        <input type="submit" value="Send" id="envoyer">
+    </form>
+</aside>
+<footer>
+    <div class="logo">
+        <a href="index.html"><img alt="logo de coda" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+    </div>
+    <ul>
+        <li><a href="mentions_en.html">Legal notices</a></li>
+        <li><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g1/" target="blank_">🔗Project's Speedlify</a></li>
+        <li><a href="https://github.com/coda-school/25-html-g1" target="blank_">🔗Project's Github</a></li>
+    </ul>
+</footer>
+</body>
+</html>
