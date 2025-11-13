@@ -503,6 +503,7 @@ p {
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    align-items: center;
 }
 
 .Psmart {
@@ -513,6 +514,7 @@ p {
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    align-items: center;
 }
 
 .Pesadd {
@@ -523,6 +525,7 @@ p {
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    align-items: center;
 }
 
 .titleEvent, .titlePart {
