@@ -44,6 +44,21 @@ header {
         justify-content: center;
     }
 
+    .logo a {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .logo img,
+    footer .logo img {
+        height: 25px !important;
+        max-width: 100% !important;
+        margin-right: 5px !important;
+    }
+
     nav {
         width: 100%;
         margin: 0 auto 10px auto !important;
@@ -80,7 +95,10 @@ header {
     }
 
     footer ul {
-        margin: 0 auto !important;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto 0 auto !important;
+        gap: 5px !important;
         padding: 0 !important;
         width: 100%;
         align-items: center;
@@ -88,6 +106,12 @@ header {
 
     footer ul li {
         width: 100%;
+        padding: 5px 0 !important;
+        text-align: center;
+    }
+
+    footer ul li a {
+        font-size: 14px !important;
     }
 }
 
