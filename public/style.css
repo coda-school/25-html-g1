@@ -21,6 +21,56 @@ header {
     justify-content: flex-start;
     align-items: center;
 }
+
+@media (max-width: 320px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header .logo {
+        position: static;
+        left: auto;
+        transform: none;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .selecteur_langue {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .liste-menu {
+        position: static;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    footer .logo {
+        position: static;
+    }
+
+    footer ul {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .staffimage {
     float: left;
     max-width: 200px;
