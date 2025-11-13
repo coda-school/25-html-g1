@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedagogy - Wikicoda</title>
+    <meta name="description" content="Page showcasing CODA's pedagogy">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <header>
+        <div class="logo">
+            <a href="index_en.html"><img alt="CODA's logo" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        </div>
+        <!--<h1>Wiki coda</h1>-->
+        <nav aria-label="Homepage">
+            <input type="checkbox" id="burger-toggle" class="hidden-checkbox">
+            <label for="burger-toggle" class="burger-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+            <ul class="liste-menu">
+                <li><a href="bde_en.html">Students' Association</a></li>
+                <li><a href="social_en.html">Social Life on Campus</a></li>
+                <li><a href="pedago_en.html">School Pedagogy</a></li>
+            </ul>
+        </nav>
+        <div class="selecteur_langue">
+            <a href="pedago.html" class="langue_link"><img class="drapeau" src="img/drpfr.jpg" alt="Small french flag to switch the website's language."></a>
+            <a href="" class="langue-link langue_active"><img class="drapeau" src="img/drpen.jpg" alt="Small english flag to switch the website's language"></a>
+        </div>
+    </header>
+    <h1>Pedagogy</h1>
+    <article class="presentation_wiki">
+        <h2>The Team</h2>
+        <p class="bloctexte">The team of CODA Dijon is composed of multiple passionate people ready to help students at any time.</p>
+        <p class="bloctexte">Whether it be the director, <b>Jeanne PELISSON</b>, the counsellor, <b>Yoan THIRION</b> or even the applications manager, <b>Théo DAMOUR</b>, the team is there to provide for everyone's needs.</p>
+    </article>
+    <div class="lignestaff">
+        <div class="staffimage">
+            <img style="max-width:200px" src="img/jeanne.webp" fetchpriority="high" alt="Jeanne PELISSON, the director.">
+        </div>
+        <div class="staffimage">
+            <img style="max-width:200px" src="img/yoan.webp" fetchpriority="high" alt="Yoan THIRION, the counsellor.">
+        </div>
+        <div class="staffimage">
+            <img style="max-width:200px" src="img/theo.webp" fetchpriority="high" alt="Théo DAMOUR, the applications manager.">
+        </div>
+    </div>
+    <article class="presentation_wiki" style="margin-top: 25px;">
+        <h2>Curriculum</h2>
+        <p class="bloctexte">The curriculum has been created to prepare students to become fullstack developers, mainly centered around the web.</p>
+        <p class="bloctexte">From the fundamentals to the highest levels, the pupils will discover many facets of the world of coding, all while being accompanied by professional speakers to teach them how companies truly work.</p>
+        <p class="bloctexte">After a few years, they will also be able to choose a specialty to learn more about what they truly enjoy and if they want to go even further, they can obtain a masters degree after five whole years.</p>
+    </article>
+
+    <aside id="nouscontacter" class="espacement">
+        <h2>Contact us</h2>
+        <form>
+            <section id="inputs">
+                <div id="block-prenom" class="elt-contact">
+                    <label for="prenom">First name</label>
+                    <input id="prenom" type="text" name="prenom">
+                </div>
+                <div id="block-nom" class="elt-contact">
+                    <label for="nom">Last name</label>
+                    <input id="nom" type="text" name="nom">
+                </div>
+                <div id="block-email" class="elt-contact">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div id="block-message" class="elt-contact">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+            </section>
+            <br>
+            <input type="submit" value="Send" id="envoyer">
+        </form>
+    </aside>
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img alt="CODA's logo" src="img/logocoda.png" style="border: solid">Wikicoda</a>
+        </div>
+        <ul>
+            <li><a href="mentions.html">Legal Notices</a></li>
+            <li><a href="https://coda-school.github.io/speedlify-dijon-b1-2025/25-html-g1/" target="blank_">🔗The Project's Speedlify</a></li>
+            <li><a href="https://github.com/coda-school/25-html-g1" target="blank_">🔗The Project's Github</a></li>
+        </ul>
+    </footer>
+</main>
+</body>
