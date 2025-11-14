@@ -446,7 +446,7 @@ h1, h2, h3 {
     font-family: Orbitron;
 }
 
-p, p > a, p > b {
+p, p > a, b, strong {
     font-family: Delius;
 }
 
