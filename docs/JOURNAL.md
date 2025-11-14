@@ -33,10 +33,10 @@ Voici les fonctionnalités principales attendues :
 ...
 -->
 
-![maquette1](img/premiere.png)
-![maquette2](img/deuxieme.png)
-![maquette3](img/troisieme.png)
-![maquette4](img/quatrieme.png)
+![maquette1](assets/premiere.png)
+![maquette2](assets/deuxieme.png)
+![maquette3](assets/troisieme.png)
+![maquette4](assets/quatrieme.png)
 
 Le Lundi nous avons travaillé sur la sémantique de notre projet, le but étant d'avoir une sémantique similaire pour pouvoir agir facilement en groupe et que nos pages se ressemblent (assez important dans le cadre d'un wiki où on aurait des pages identiques).
 
