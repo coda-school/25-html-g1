@@ -498,7 +498,7 @@ h1, h2, h3 {
     font-family: Orbitron, sans-serif;
 }
 
-p, p > a, b, strong {
+p, p > a, b, strong, li {
     font-family: Delius, serif;
 }
 
