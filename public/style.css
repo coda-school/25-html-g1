@@ -311,20 +311,23 @@ article p, .Psalsa p, .Pesadd p, .Psmart p {
     width: fit-content;
 }
 
-.staffimage {
-    float: none;
-    max-width: 100%;
-    width: 100%;
-    padding: 15px;
-    border: solid;
-    border-radius: 25px;
-}
-
 .lignestaff {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 350px;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.lignestaff > img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
     height: auto;
+    margin: auto;
+    border: solid;
+    border-radius: 25px
 }
 
 .social-body{
@@ -439,16 +442,6 @@ footer li:hover {
     }
     footer ul li a {
         font-size: 13px;
-    }
-
-    .lignestaff {
-        flex-direction: row;
-        height: 350px;
-    }
-    .staffimage {
-        float: left;
-        max-width: 200px;
-        width: 33%;
     }
     .jour-ligne {
         flex: 1 1 45%;
