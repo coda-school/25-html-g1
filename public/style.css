@@ -3,7 +3,6 @@ html, body {
     padding: 0;
     width: 100%;
     background-color: #FCF6F0;
-    box-sizing: border-box;
 }
 
 * {
@@ -14,239 +13,27 @@ html, body {
 header {
     background-color: #190f2d;
     color: white;
-    padding: 15px 20px;
-    height: 70px;
+    padding: 5px 10px;
+    height: 60px;
     position: sticky;
     top: 0;
     z-index: 1000;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
-
-@media (max-width: 320px) {
-    header {
-        height: 60px !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        padding: 5px 10px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    header .logo {
-        position: static !important;
-        transform: none !important;
-        width: auto !important;
-        margin: 0 !important;
-        order: 2;
-    }
-
-    header .logo a {
-        font-size: 16px !important;
-        justify-content: center !important;
-    }
-
-    header .logo img {
-        height: 20px !important;
-    }
-
-    nav {
-        order: 1;
-        width: auto;
-        margin: 0 !important;
-    }
-
-    .burger-icon {
-        transform: scale(0.75);
-        margin-right: 0 !important;
-    }
-
-    .selecteur_langue {
-        order: 3;
-        width: auto;
-        margin: 0 !important;
-        gap: 5px !important;
-    }
-
-    .selecteur_langue .drapeau {
-        width: 20px !important;
-        height: 15px !important;
-    }
-
-    .liste-menu {
-        display: none !important;
-    }
-
-    footer {
-        height: auto !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center;
-        padding: 5px 0 !important;
-        gap: 5px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    footer .logo {
-        position: static !important;
-        width: 40% !important;
-        margin: 0 !important;
-        order: 1;
-        padding-left: 10px !important;
-    }
-    footer .logo a {
-        font-size: 14px !important;
-        justify-content: flex-start !important;
-    }
-    footer .logo img {
-        height: 18px !important;
-    }
-
-    footer ul {
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: flex-end;
-        align-items: flex-end;
-        order: 2;
-        width: 60% !important;
-        margin: 0 !important;
-        padding: 0 10px 0 0 !important;
-        gap: 3px !important;
-        text-align: right;
-    }
-
-    footer ul li {
-        width: auto !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    footer ul li a {
-        font-size: 10px !important;
-        white-space: nowrap;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 700px) {
-    header {
-        height: auto !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        padding: 10px 15px !important;
-    }
-
-    header .logo {
-        position: static !important;
-        transform: none !important;
-        width: auto !important;
-        margin: 0 !important;
-        order: 2;
-    }
-    header .logo a {
-        font-size: 20px !important;
-    }
-    header .logo img {
-        height: 25px !important;
-    }
-
-    nav {
-        order: 1;
-        width: auto;
-        margin: 0 !important;
-    }
-
-    .selecteur_langue {
-        order: 3;
-        width: auto;
-        margin: 0 !important;
-    }
-
-    .selecteur_langue .drapeau {
-        width: 30px !important;
-        height: 20px !important;
-    }
-
-    .liste-menu {
-        display: none;
-    }
-
-    footer {
-        height: auto !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center;
-        padding: 10px 15px !important;
-    }
-
-    footer .logo {
-        position: static !important;
-        width: auto !important;
-        margin: 0 !important;
-        order: 1;
-    }
-    footer .logo a {
-        font-size: 16px !important;
-        justify-content: flex-start !important;
-    }
-    footer .logo img {
-        height: 20px !important;
-    }
-
-    footer ul {
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: flex-end;
-        align-items: center;
-        order: 2;
-        width: auto !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        gap: 15px !important;
-    }
-
-    footer ul li {
-        padding: 0 !important;
-        margin: 0 !important;
-        width: auto !important;
-    }
-
-    /* Le texte des liens */
-    footer ul li a {
-        font-size: 13px !important;
-        white-space: nowrap;
-    }
-}
-
-.staffimage {
-    float: left;
-    max-width: 200px;
-    width: 33%;
-    padding: 15px;
-    align-items: center;
-}
-.lignestaff {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 350px
-}
-
 
 header .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1010;
+    order: 2;
+    width: auto;
+    margin: 0;
 }
 
 header .logo img {
-    height: 30px;
+    height: 20px;
     vertical-align: middle;
     margin-right: 2px;
-    border: none !important;
+    border: none;
 }
 
 .logo a {
@@ -254,7 +41,7 @@ header .logo img {
     align-items: center;
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 1;
     font-family: Orbitron, sans-serif;
 }
@@ -262,6 +49,7 @@ header .logo img {
 nav {
     display: flex;
     align-items: center;
+    order: 1;
 }
 
 .burger-icon {
@@ -271,7 +59,6 @@ nav {
     width: 30px;
     height: 25px;
     cursor: pointer;
-    margin-right: 15px;
 }
 
 .line {
@@ -291,7 +78,7 @@ nav {
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 0;
     width: 100%;
     max-height: 0;
@@ -333,124 +120,16 @@ nav {
     transform: translateY(-11px) rotate(-45deg);
 }
 
-h1 {
-    border-style: solid;
-    background: #E1D5FF;
-    display: flex;
-    justify-content: center;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
-
-.presention_ecole_promotion{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.presention_ecole_promotion article{
-    border-style: solid;
-    background: #E1D5FF;
-    border-radius: 10px;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-}
-
-.presentation_wiki{
-    border-style: solid;
-    background: #E1D5FF;
-    border-radius: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-
-main a{
-    color: #460AE6;
-}
-
-.actualite{
-    border-style: solid;
-    background: #E1D5FF;
-    border-radius: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-
-article p{
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
-    hyphens: auto;
-}
-
-.style_date {
-    font-weight: bold;
-}
-
-footer {
-    background-color: #190f2d;
-    color: white;
-    padding: 15px 20px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
-footer .logo{
-    position: absolute;
-}
-
-footer .logo img {
-    height: 30px;
-    vertical-align: middle;
-    margin-right: 2px;
-    border: none !important;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer li:hover {
-    text-decoration: underline;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 10px;
-    padding: 0;
-    font-size: 15px;
-}
-
-h1, h2, h3 {
-    font-family: Orbitron;
-}
-
-p {
-    font-family: Delius;
-}
-
 .selecteur_langue {
-    margin-left: auto;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     z-index: 1010;
+    order: 3;
 }
+
 .selecteur_langue .drapeau {
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 15px;
     display: block;
     border: 2px solid transparent;
     transition: border-color 0.2s, opacity 0.2s;
@@ -466,23 +145,18 @@ p {
     opacity: 0.8;
 }
 
-/*Page de Jojo*/
-.presentationBDE {
-    border: 3px solid;
+h1 {
+    border-style: solid;
+    background: #E1D5FF;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
-    border-color: black;
-    background-color: #E1D5FF;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
 }
 
-.listeBDE {
-    padding-left: 20px;
-    font-family: Delius;
-}
-
-.eventBDE {
+.presention_ecole_promotion, .eventBDE {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -491,45 +165,51 @@ p {
     margin-right: 25px;
 }
 
-.eventBDE article {
+.presention_ecole_promotion article, .eventBDE article {
     border-style: solid;
+    background: #E1D5FF;
     border-radius: 10px;
+    flex: 1 1 100%;
     box-sizing: border-box;
-    flex: 1 1 300px;
-    background-color: #E1D5FF;
 }
 
-.Psalsa {
-    display: flex;
+.presentation_wiki, .actualite, .presentationBDE, .Psalsa, .Psmart, .Pesadd{
     border-style: solid;
+    background: #E1D5FF;
     border-radius: 10px;
-    background-color: #E1D5FF;
-    margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.Pesadd, .Psmart, .Psalsa {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.Psmart {
-    display: flex;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: #E1D5FF;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    align-items: center;
+main a{
+    color: #460AE6;
 }
 
-.Pesadd {
-    display: flex;
+.actualite{
     border-style: solid;
+    background: #E1D5FF;
     border-radius: 10px;
-    background-color: #E1D5FF;
-    margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
-    align-items: center;
+    margin-bottom: 25px;
+}
+
+article p, .Psalsa p, .Pesadd p, .Psmart p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    hyphens: auto;
+}
+
+.style_date {
+    font-weight: bold;
 }
 
 .titleEvent, .titlePart {
@@ -544,32 +224,32 @@ p {
     margin-bottom: 15px;
 }
 
-/*Page de Remy*/
+.listeBDE {
+    padding-left: 20px;
+    font-family: Delius, sans-serif;
+}
+
 .espacement{
     margin-left: 25px;
     margin-right: 25px;
-}
-
-.social-body{
-    background-color: #FCF6F0;
 }
 
 .imgseminaire{
     height: 150px;
     width: auto;
     position:relative;
-    left:30px;
+    left:10px;
     border: 3px solid;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 #img1{
-    height: 340px;
+    height: 200px;
     width: auto;
     position:relative;
-    left:20px;
-    top: 20px;
+    left:10px;
+    top: 10px;
     border: 3px solid;
     box-sizing: border-box;
     border-radius: 10px;
@@ -583,23 +263,18 @@ p {
     background-color: #E1D5FF;
 }
 
-
 .titre{
     text-align: center;
     padding: 15px;
 }
 
-#titre-activites{
-    text-align: center;
-}
-
 #intro-seminaire{
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .jour-ligne{
-    flex: 1 1 300px;
+    flex: 1 1 100%;
     box-sizing: border-box;
 }
 
@@ -611,24 +286,17 @@ p {
     margin-bottom: 25px;
 }
 
-#vie-au-campus{
-    margin-bottom: 25px;
-}
-
-#seminaire-mars{
-    margin-bottom: 25px;
-}
-
-/*Aside*/
-
-aside {
-    margin-bottom: 25px;
-}
-
 #inputs{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.elt-contact{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 #nouscontacter{
@@ -638,9 +306,234 @@ aside {
     padding: 5px;
 }
 
-.elt-contact{
-    flex: 1 1 300px;
-    box-sizing: border-box;
+#envoyer{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: fit-content;
+}
+
+.staffimage {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    padding: 15px;
+    border: solid;
+    border-radius: 25px;
+}
+
+.lignestaff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.social-body{
+    background-color: #FCF6F0;
+}
+
+footer {
+    background-color: #190f2d;
+    color: white;
+    padding: 5px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .logo{
+    order: 1;
+    width: 40%;
+    padding-left: 5px;
+    margin: 0;
+    position: static;
+}
+
+footer .logo img {
+    height: 18px;
+}
+
+footer .logo a {
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+footer ul {
+    order: 2;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+    padding: 0 10px 0 0;
+    margin: 0;
+    width: 60%;
+    text-align: right;
+}
+
+footer ul li {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li a {
+    font-size: 10px;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 601px) {
+    header {
+        padding: 10px 15px;
+    }
+    header .logo img {
+        height: 25px;
+    }
+    .logo a {
+        font-size: 20px;
+    }
+    .selecteur_langue {
+        gap: 10px;
+    }
+    .selecteur_langue .drapeau {
+        width: 30px;
+        height: 20px;
+    }
+
+    .presention_ecole_promotion article,
+    .eventBDE article {
+        flex: 1 1 300px;
+    }
+
+    .Psalsa, .Psmart, .Pesadd {
+        flex-direction: row;
+    }
+
+    footer {
+        padding: 10px 15px;
+        height: 70px;
+    }
+    footer .logo {
+        width: auto;
+    }
+    footer .logo img {
+        height: 20px;
+    }
+    footer .logo a {
+        font-size: 16px;
+    }
+    footer ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        width: auto;
+        padding: 0;
+    }
+    footer ul li a {
+        font-size: 13px;
+    }
+
+    .lignestaff {
+        flex-direction: row;
+        height: 350px;
+    }
+    .staffimage {
+        float: left;
+        max-width: 200px;
+        width: 33%;
+    }
+    .jour-ligne {
+        flex: 1 1 45%;
+    }
+    #img1 {
+        height: 340px;
+        left: 20px;
+        top: 20px;
+    }
+    #inputs {
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    .elt-contact {
+        flex: 1 1 auto;
+    }
+    #block-prenom { max-width: 255px; }
+    #block-nom { max-width: 240px; }
+    #nom { position: relative; left: 30px; }
+    #block-email { max-width: 255px; }
+    #email { position: relative; left: 15px; }
+    #block-message { max-width: 270px; }
+    #envoyer {
+        margin-left: 72%;
+        transform: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    header {
+        height: 70px;
+        padding: 15px 20px;
+    }
+
+    header .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        order: initial;
+    }
+    header .logo img {
+        height: 30px;
+    }
+    .logo a {
+        font-size: 30px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    .liste-menu {
+        display: flex;
+        position: static;
+        max-height: none;
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+    }
+    .liste-menu li {
+        text-align: center;
+        border-top: none;
+        margin-left: 20px;
+    }
+    .liste-menu li a {
+        padding: 0;
+        background-color: transparent;
+    }
+    .liste-menu li a:hover {
+        text-decoration: underline;
+    }
+}
+
+h1, h2, h3 {
+    font-family: Orbitron;
+}
+
+p {
+    font-family: Delius;
+}
+
+aside {
+    margin-bottom: 25px;
 }
 
 #block-prenom{
@@ -669,24 +562,4 @@ aside {
     max-width: 270px;
 }
 
-#envoyer{
-    margin-left: 72%;
-    margin-right: 20%;
-}
 
-/*Page de Yoann*/
-.staffimage {
-    float: left;
-    max-width: 200px;
-    width: 33%;
-    padding: 15px;
-    border: solid;
-    border-radius: 25px;
-}
-
-.lignestaff {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 350px
-}
