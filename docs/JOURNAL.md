@@ -25,10 +25,10 @@ Le groupe est composé de
 Nous avons choisi le sujet proposé "Wiki".
 
 Voici les fonctionnalités principales attendues :
-- Fonctionnalité A
-- Fonctionnalité B
-- Fonctionnalité C
-- Fonctionnalité D
+- Récuperer des informations sur l'école
+- Récuperer les contacts de l'école ou du BDE
+- Découvrir les actualités de l'école et de son campus
+- Explorer la vie sociale des étudiants sur le campus
 
 ...
 -->
