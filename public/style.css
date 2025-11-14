@@ -3,7 +3,6 @@ html, body {
     padding: 0;
     width: 100%;
     background-color: #FCF6F0;
-    overflow-x: hidden;
     box-sizing: border-box;
 }
 
@@ -32,6 +31,8 @@ header {
         justify-content: space-between !important;
         align-items: center !important;
         padding: 5px 10px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     header .logo {
@@ -83,8 +84,10 @@ header {
         flex-direction: row !important;
         justify-content: space-between !important;
         align-items: center;
-        padding: 5px 10px !important;
+        padding: 5px 0 !important;
         gap: 5px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     footer .logo {
@@ -92,6 +95,7 @@ header {
         width: 40% !important;
         margin: 0 !important;
         order: 1;
+        padding-left: 10px !important;
     }
     footer .logo a {
         font-size: 14px !important;
@@ -109,7 +113,7 @@ header {
         order: 2;
         width: 60% !important;
         margin: 0 !important;
-        padding: 0 !important;
+        padding: 0 10px 0 0 !important;
         gap: 3px !important;
         text-align: right;
     }
