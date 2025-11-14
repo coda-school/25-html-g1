@@ -240,28 +240,21 @@ article p, .Psalsa p, .Pesadd p, .Psmart p {
 .espacement{
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 25px;
 }
 
-.imgseminaire{
-    height: 150px;
-    width: auto;
-    position:relative;
-    left:10px;
+
+.imgseminaire, #img1 {
+    width: 70%;        
+    height: auto;      
+    object-fit: contain;
+    display: block;    
     border: 3px solid;
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 10px 20px;    
 }
 
-#img1{
-    height: 200px;
-    width: auto;
-    position:relative;
-    left:10px;
-    top: 10px;
-    border: 3px solid;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
 
 .contour{
     border: 3px solid;
@@ -276,14 +269,12 @@ article p, .Psalsa p, .Pesadd p, .Psmart p {
     padding: 15px;
 }
 
-#intro-seminaire{
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .jour-ligne{
-    flex: 1 1 100%;
-    box-sizing: border-box;
+    flex: 1 1 300px; 
+    display: flex;
+    flex-direction: column; 
+    gap: 3px;
 }
 
 #activites{
