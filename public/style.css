@@ -18,6 +18,10 @@ a {
     transition: text-shadow 0.2s;
 }
 
+a[href*="https://"]::before{
+    content: "🔗"
+}
+
 header {
     background-color: #190f2d;
     color: white;
