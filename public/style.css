@@ -11,6 +11,14 @@ html, body {
     box-sizing: border-box;
 }
 
+a:hover {
+    text-shadow: #49637e 0 0 5px;
+}
+
+a {
+    transition: text-shadow 0.2s;
+}
+
 header {
     background-color: #190f2d;
     color: white;
