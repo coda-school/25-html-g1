@@ -505,31 +505,6 @@ footer li:hover {
     .logo a {
         font-size: 30px;
     }
-
-    .burger-icon {
-        display: none;
-    }
-
-    .liste-menu {
-        display: flex;
-        position: static;
-        max-height: none;
-        background-color: transparent;
-        box-shadow: none;
-        width: auto;
-    }
-    .liste-menu li {
-        text-align: center;
-        border-top: none;
-        margin-left: 20px;
-    }
-    .liste-menu li a {
-        padding: 0;
-        background-color: transparent;
-    }
-    .liste-menu li a:hover {
-        text-decoration: underline;
-    }
 }
 
 h1, h2, h3 {
