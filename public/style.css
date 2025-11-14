@@ -10,6 +10,14 @@ html, body {
     box-sizing: border-box;
 }
 
+a:hover {
+    text-shadow: #49637e 0 0 5px;
+}
+
+a {
+    transition: text-shadow 0.2s;
+}
+
 header {
     background-color: #190f2d;
     color: white;
@@ -528,7 +536,7 @@ h1, h2, h3 {
     font-family: Orbitron;
 }
 
-p {
+p, p > a, b, strong {
     font-family: Delius;
 }
 
@@ -561,5 +569,3 @@ aside {
 #block-message{
     max-width: 270px;
 }
-
-
