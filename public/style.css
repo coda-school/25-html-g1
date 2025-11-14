@@ -200,6 +200,10 @@ main a{
     color: #460AE6;
 }
 
+.retour {
+    text-align: center;
+}
+
 .actualite{
     border-style: solid;
     background: #E1D5FF;
