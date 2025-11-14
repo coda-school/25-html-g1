@@ -317,8 +317,8 @@ article p, .Psalsa p, .Pesadd p, .Psmart p {
 
 .lignestaff {
     display: flex;
-    flex-direction: row;
-    height: 350px;
+    flex-direction: column;
+    height: auto;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -326,10 +326,10 @@ article p, .Psalsa p, .Pesadd p, .Psmart p {
 
 .lignestaff > img {
     display: block;
-    width: 100%;
-    max-width: 200px;
+    width: 90%;
+    max-width: 250px;
     height: auto;
-    margin: auto;
+    margin: 10px auto;
     border: solid;
     border-radius: 25px
 }
@@ -413,6 +413,17 @@ footer li:hover {
     .selecteur_langue .drapeau {
         width: 30px;
         height: 20px;
+    }
+
+    .lignestaff {
+        flex-direction: row;
+        height: 350px;
+        gap: 20px
+    }
+
+    .lignestaff > img {
+        width: 33.33%;
+        max-width: 200px;
     }
 
     .presention_ecole_promotion article,
